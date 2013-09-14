@@ -11,7 +11,11 @@
 ```
 
 ```php
+
+`composer update`
+
 <?php
+require('path/to/autoload.php');
 
 use Hazbo\Json\Formatter;
 
