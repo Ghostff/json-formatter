@@ -10,10 +10,9 @@
 }
 ```
 
-```php
-
 `composer update`
 
+```php
 <?php
 require('path/to/autoload.php');
 
