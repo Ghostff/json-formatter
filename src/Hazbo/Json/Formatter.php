@@ -20,7 +20,7 @@ class Formatter
         $result    = '';
         $pos       = 0;
         $strLen    = strlen($json);
-        $indentStr = "\t";
+        $indentStr = "  ";
         $newLine   = "\n";
 
         for ($i = 0; $i < $strLen; $i++) {
