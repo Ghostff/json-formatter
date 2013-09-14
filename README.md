@@ -15,4 +15,6 @@
 
 use Hazbo\Json\Formatter;
 
-$formatter = new Formatter();
+$formatter    = new Formatter($json_string);
+$pretty_print = $formatter->format();
+```
