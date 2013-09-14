@@ -11,8 +11,12 @@ class Formatter
         $this->json = $json;
     }
 
-    public function format($json)
+    public function format($json = null)
     {
+        if (is_null($json)) {
+            $json = $this->json;
+        }
+
         $result    = '';
         $pos       = 0;
         $strLen    = strlen($json);
